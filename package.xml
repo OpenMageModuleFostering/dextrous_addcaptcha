@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+    <name>Dextrous_Addcaptcha</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add Default Magento Captcha On Contact Us Page.</summary>
+    <description>Add Captcha On Contact Us Page:&#xD;
+&#xD;
+This extension add default Magento captcha on 'Contact US' page and will protect 'Contact US' form from unwanted spambots..&#xD;
+&#xD;
+Key Features:-&#xD;
+	- Ability to Enable/Disable each block from admin configuration.&#xD;
+&#xD;
+To Use Extension Follow Below Instruction:-&#xD;
+	- Navigate 'System-&gt;Configuration'.&#xD;
+	- Select 'Customer Configuration' from Left Panel.&#xD;
+	- Select 'CAPTCHA' tab.&#xD;
+	- Set 'Enable CAPTCHA on Frontend' to 'Yes'.&#xD;
+	- Select 'Contacts Page' from multiselect drop-down for 'Forms'.&#xD;
+	- Save Configuration.</description>
+    <notes>Stable version to add captcha on contact us page.</notes>
+    <authors><author><name>Hemant kumar sharma</name><user>hemantkr</user><email>hemant7677@gmail.com</email></author></authors>
+    <date>2015-03-05</date>
+    <time>03:02:59</time>
+    <contents><target name="magelocal"><dir name="Dextrous"><dir name="Addcaptcha"><dir name="Model"><file name="Observer.php" hash="60c428209ec75f4f78edd4c24171641e"/></dir><dir name="etc"><file name="config.xml" hash="80edee11f7494962ae91387a6221309a"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Dextrous_Addcaptcha.xml" hash="d504bff70a1186b6240b163cb8a403ac"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="dextrous_addcaptcha.xml" hash="a853ff77793485bd8ff56d2c4f32057f"/></dir><dir name="template"><dir name="addcaptcha"><dir name="contacts"><file name="form.phtml" hash="60aff60de2fbfdf8ebe2032a637535b4"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.9.0.1</max></package></required></dependencies>
+</package>

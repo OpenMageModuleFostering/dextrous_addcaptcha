@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dextrous_Addcaptcha>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Dextrous_Addcaptcha>
+    </modules>
+</config>
