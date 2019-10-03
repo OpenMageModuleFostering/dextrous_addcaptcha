@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Dextrous_Addcaptcha",
+    "name": "openmage-module-fostering\/dextrous_addcaptcha",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Add Default Magento Captcha On Contact Us Page.",
     "authors": [
